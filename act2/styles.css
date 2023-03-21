@@ -1,0 +1,33 @@
+html{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #fff;
+}
+.header{
+    justify-content: center;
+    font-family: 'Comic Sans MS', Bold;
+}
+.formulariosuma{
+    justify-content: center;
+    display:flex;
+}
+.formulariosuma input{
+    width: 300px;
+    border-radius: 70px;
+    text-align:center;
+    font-size:50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Ubuntu', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.formulariosuma p{
+    font-size:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Ubuntu', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.formulariosuma textarea{
+    width: 300px;
+    border-radius: 7px;
+    justify-content: center;
+    display:flex;
+    text-align:center;
+    font-size:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Ubuntu', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
