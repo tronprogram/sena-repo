@@ -1,0 +1,53 @@
+*{
+    font-family: 'Comic Sans MS',cursive;
+}
+html{
+    font-family: 'Comic Sans MS',cursive;
+    background: rgb(166,130,173);
+background: linear-gradient(90deg, rgba(166,130,173,1) 0%, rgba(223,160,198,1) 19%, rgba(245,203,238,1) 38%, rgba(247,255,200,1) 67%, rgba(141,236,255,1) 100%);
+
+}
+.container{
+    display: flex;
+    justify-content:center;
+    margin-top:10%;
+}
+input{
+    padding: 3%;
+    margin-top: 5%;
+    margin-left:-16%;
+    border-radius:100px;
+    display:flex;
+    justify-content: center;
+}
+.container label{
+    display:flex;
+    font-size:100%;
+    justify-content:center;
+}
+.inpbutton{
+    display:flex;
+    justify-content: center;
+    padding: 5%;
+    margin-left: 5%;
+    border-radius: 10%;
+
+background: rgb(255,253,129);
+background: radial-gradient(circle, rgba(255,253,129,1) 1%, rgba(247,247,244,1) 100%);
+    -webkit-transition: background-color 400ms ease-out;
+    -moz-transition: background-color 400ms ease-out;
+    -o-transition: background-color 400ms ease-out;
+    transition: background-color 400ms ease-out;
+}
+.inpbutton:hover{
+    background: rgb(255,163,183);
+
+transition: background-color 400ms ease-out;
+}
+textarea{
+    display:flex;
+    justify-content: center;
+    padding: 5%;
+    margin-left: 5%;
+    border-radius: 10%;
+}
